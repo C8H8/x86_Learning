@@ -24,5 +24,5 @@ return:
 	syscall			;call syscall
 
 section .data	;Variable Section
-	message: db "Hello World!", 0xA	;makes string called message. 0xA is newline character
+	message db "Hello World!", 0xA	;makes string called message. 0xA is newline character
 	message_length equ $-message	;creates message length variable
